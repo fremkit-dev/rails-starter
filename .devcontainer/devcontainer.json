@@ -1,0 +1,11 @@
+{
+  "name": "Rails Starter",
+  "image": "mcr.microsoft.com/devcontainers/ruby:3.3",
+  "forwardPorts": [3000],
+  "postCreateCommand": "bundle install",
+  "customizations": {
+    "vscode": {
+      "extensions": ["shopify.ruby-lsp"]
+    }
+  }
+}
